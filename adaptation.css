@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 1280px;
+    height: 3796px;
+    display: flex;
+    border: 5px solid;
+    margin: auto;
+    flex-direction: column;
+}
+.house{
+    width: 1275px;
+    height: 908px;
+    background-image: url("image/start-screen-gradient.png");
+    margin-top: 27px;
+}
+header{
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 573px;
+    margin: 60px 0 0 40px;
+}
+header div h1{
+    color:  #F1CDB3;
+    font-family: Georgia sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 1.92px;
+}
+header div p{
+    color: #FFF;
+    font-family: Arial sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+
+
+ header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    gap: 35px;
+
+}
+header nav ul li a{
+    color:  #FFF;
+   font-family: Arial sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+}
+ header nav ul li:first-child{
+    border-bottom: 2px solid #F1CDB3;
+}
+/*-------------------section-only-people-----------------------------------*/
+.only-people{
+    display: flex;
+    margin: 60px 40px 0 40px;
+}
+.only-people div h2{
+    width: 310px;
+    color: #FFF;
+    font-family: Georgia sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 130%; /* 57.2px */
+    margin-top: 163px;
+}
+.only-people div p{
+    width: 460px;
+    height: 72px;
+    color:  #CDCDCD;
+    font-family: Arial sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+    margin: 42px 32px 42px 0;
+}
+.only-people div button{
+    display: flex;
+    padding: 15px 45px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #F1CDB3;
+    color: #292929;
+    font-family: Georgia sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1px;
+}
+.only-people div img{
+    width: 698px;
+    height: 728px;
+    background:  lightgray 50% / cover no-repeat;
+}
+/*--------------------section-animals--------------------------------------*/
+.animals{
+    display: flex;
+    width: 1260px;
+    height: 588px;
+    padding: 80px 0 100px 0;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+.about{
+    display: flex;
+    width: 1200px;
+    height: 408px;
+    padding: 0 155px;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.about  img{
+    width: 300px;
+    height: 408px;
+}
+.about div h3{
+    width: 370px;
+    color:  #545454;
+    font-family: Georgia sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.about div p{
+    width: 430px;
+    color:  #4C4C4C;
+    font-family: Arial sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+    margin-bottom: 25px;
+}
+/*-----------------------section-pets----------------------------------*/
+.pets{
+    display: flex;
+    width: 1270px;
+    height: 877px;
+    padding: 80px 40px 100px 40px;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+}
+.pets-content{
+    display: flex;
+    width: 1200px;
+    height: 697px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.pets-content h3{
+    width: 400px;
+    color:  #545454;
+    text-align: center;
+    font-family: Georgia sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2px;
+}
+.friends{
+    display: flex;
+    width: 1200px;
+    height: 697px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.friends img{
+    width: 270px;
+    height: 270px;
+    border-radius: 9px 9px 0 0;
+    background:  lightgray 50% / cover no-repeat;
+}
+.friends p{
+    color: #545454;
+    text-align: center;
+    font-family: Georgia sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.friends button{
+    display: flex;
+    padding: 15px 45px;
+    align-items: center;
+    border-radius: 100px;
+    border: 2px solid  #F1CDB3;
+    margin: 30px 60px;
+    color:  #292929;
+    font-family: Georgia sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1px;
+}
+.text{
+    display: flex;
+    padding: 15px 45px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background:  #F1CDB3;
+    border: none;
+    color:  #292929;
+    font-family: Georgia sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1px;
+}
+/*----------------------section-help----------------------------------------*/
+.help{
+    display: flex;
+    width: 1270px;
+    height: 611px;
+    padding: 80px 40px 100px 40px;
+    justify-content: center;
+    align-items: center;
+    background:  #FFF;
+}
+.help-content{
+    display: flex;
+    width: 1200px;
+    height: 431px;
+    padding: 0 87px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.help-content h3{
+    color:  #545454;
+    text-align: center;
+    font-family: Georgia sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+.nav{
+    width: 1026px;
+    height: 281px;
+}
+.nav nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.nav nav ul li{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav  span{
+    height: 23px;
+    width: 165px;
+    color: #545454;
+    text-align: center;
+    font-family: Georgia sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1px;
+}
+/*-------------------article-----------------------------------*/
+article{
+    display: flex;
+    width: 1270px;
+    height: 462px;
+    padding: 80px 182px 100px 183px;
+    justify-content: center;
+    align-items: center;
+    background:  #F6F6F6;
+}
+article .article{
+    display: flex;
+    width: 915px;
+    height: 282px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.article img{
+    width: 505px;
+    height: 261px;
+}
+.article div h3{
+    width: 300px;
+    color: #545454;
+    font-family: Georgia sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.article div p:nth-child(2){
+    color:  #545454;
+    font-family: Georgia sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.number{
+    width: 349px;
+    height: 43px;
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+    background:  #F1CDB3;
+}
+.number span p{
+    color:  #545454;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+.article div p:nth-child(4) {
+    width: 360px;
+    color:  #B2B2B2;
+    font-family: Arial sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    margin-top: 20px;
+}
+/*-------------------footer------------------------------------------*/
+footer{
+    width: 1275px;
+    height: 315px;
+    background-image: url("image/footer-gradient-background.png");
+    /*padding: 40px 40px 0 40px;*/
+}
+.footer-content{
+    width: 1200px;
+    height: 310px;
+    display: flex;
+flex-direction: column;
+    gap: 160px;
+    flex-wrap: wrap;
+    margin: 56px 0 60px 40px;
+
+}
+.contact h3{
+    width: 278px;
+    color:  #FFF;
+    font-family: Georgia sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+    margin-bottom: 40px;
+}
+.contact form img{
+    width: 40px;
+    height: 32px;
+}
+.contact input[type="email"]{
+    width: 191px;
+    height: 23px;
+    background: none;
+    border: none;
+    margin: auto;
+}
+.contact form{
+    display: flex;
+ text-align:center;
+    margin-bottom: 40px;
+
+}
+.contact input[type="email"]::placeholder{
+    color:  #F1CDB3;
+    font-family: Georgia sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+.contact input[type="text"]{
+    width: 179px;
+    height: 23px;
+    background: none;
+    border: none;
+    margin: auto;
+
+}
+.contact input[type="text"]::placeholder{
+    color: #F1CDB3;
+    font-family: Georgia sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+.address h3{
+    width: 270px;
+    color: #FFF;
+    font-family: Georgia sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+    margin-bottom: 34px;
+}
+address form img {
+    width: 22px;
+    height: 32px;
+}
+.address form{
+    display: flex;
+    text-align:center;
+    margin-bottom: 40px;
+}
+.address input[type="text"]{
+    width: 260px;
+    height: 46px;
+    background: none;
+    border: none;
+    margin: auto;
+}
+.address input[type="text"]::placeholder{
+    width: 260px;
+    color:  #F1CDB3;
+    font-family: Georgia sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+.puppy img{
+    width:250px;
+    height: 260px;
+    background-size: cover;
+}
+
+
